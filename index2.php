@@ -49,9 +49,10 @@ $total_o = mysqli_fetch_assoc($res_o)['total'];
             </a>
             
             <p class="text-[10px] font-bold text-gray-300 ml-4 mb-2 mt-8 uppercase">Shop Front</p>
-            <a href="shop.php" target="_blank" class="flex items-center gap-3 p-4 text-gray-500 hover:bg-pink-50 rounded-2xl transition">
+            <a href="../login/shop.php" target="_blank" class="flex items-center gap-3 p-4 text-gray-500 hover:bg-pink-50 rounded-2xl transition">
                 <span>🏠</span> ดูหน้าร้านจริง
             </a>
+
             <a href="logout.php" class="flex items-center gap-3 p-4 text-red-400 hover:bg-red-50 rounded-2xl transition mt-10">
                 <span>🚀</span> ออกจากระบบ
             </a>
